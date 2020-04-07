@@ -1,0 +1,82 @@
+.section-keyboard{
+	background-color: grey;
+}
+textarea {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 100px;
+}
+.keyboard{
+	margin: 0 auto;
+	width: 400px;
+	padding: 5px;
+	background-color: blueviolet;
+}
+.line{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+}
+.key{
+	display: block;
+	width: 15px;
+	height: 15px;
+	box-sizing: content-box;
+	font-size: 10px;
+}
+
+.key:hover {
+	background-color: #ffbd59;
+}
+#Tab,
+#Backspace,
+#CapsLock,
+#Enter,
+#ShiftLeft,
+#ShiftRight,
+#ControlLeft,
+#AltLeft,
+#ControlRight,
+#AltRight{
+	font-size: 6px;
+}
+#Backspace{
+	width: 60px;
+}
+
+#CapsLock,
+#ShiftLeft,
+#ShiftRight{
+	width: 40px;
+}
+#Enter{
+	width: 40px;
+}
+#ControlLeft{
+	width: 30px;
+}
+#AltLeft{
+	width: 30px;
+}
+#Space{
+	width: 170px;
+}
+#AltRight{
+	width: 30px;
+}
+#ControlRight{
+	width: 20px;
+}
+.active {
+	transition: 300ms;
+	background-color: red;
+	border: none;
+}
+
+
+
+
+
+
+
