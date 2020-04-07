@@ -7,17 +7,20 @@ textarea {
 	width: 400px;
 	height: 100px;
 }
+
 .keyboard{
 	margin: 0 auto;
 	width: 400px;
 	padding: 5px;
 	background-color: blueviolet;
 }
+
 .line{
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 5px;
 }
+
 .key{
 	display: block;
 	width: 15px;
