@@ -1,4 +1,4 @@
-.section-keyboard{
+section-keyboard{
 	background-color: grey;
 }
 textarea {
@@ -65,16 +65,11 @@ textarea {
 #AltRight{
 	width: 30px;
 }
-
 #ControlRight{
 	width: 20px;
 }
-
 .active {
 	transition: 300ms;
 	background-color: red;
 	border: none;
 }
-
-
-
