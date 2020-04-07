@@ -68,6 +68,7 @@ textarea {
 #ControlRight{
 	width: 20px;
 }
+
 .active {
 	transition: 300ms;
 	background-color: red;
